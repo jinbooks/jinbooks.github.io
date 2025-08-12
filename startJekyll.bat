@@ -1,0 +1,1 @@
+ jekyll server --port 80 --trace  --incremental
