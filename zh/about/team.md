@@ -18,42 +18,10 @@ layout: zh/default
 	</thead>
 	<tbody>
 		<tr>
-			<td>apacheBright</td>
-			<td></td>
-			<td>https://github.com/apacheBright</td>
-			<td>MaxKeyTop</td>
-			<td>PMC Member</td>
-			<td>Asia/北京</td>
-		</tr>
-		<tr>
-			<td>fucan1017</td>
-			<td></td>
-			<td>https://github.com/fucan1017</td>
-			<td>MaxKeyTop</td>
-			<td>contributor</td>
-			<td>Asia/北京</td>
-		</tr>
-		<tr>
-			<td>FranisiL</td>
-			<td></td>
-			<td>https://github.com/FranisiL</td>
-			<td>MaxKeyTop</td>
-			<td>PMC Member</td>
-			<td>Asia/北京</td>
-		</tr>
-		<tr>
-			<td>Garrett.Xia</td>
-			<td></td>
-			<td>https://github.com/randomNaming</td>
-			<td>MaxKeyTop</td>
-			<td>PMC Member</td>
-			<td>Asia/北京</td>
-		</tr>
-		<tr>
 			<td>shimingxy</td>
 			<td></td>
 			<td>https://github.com/shimingxy</td>
-			<td>MaxKeyTop</td>
+			<td>JinBooks</td>
 			<td>PMC Chair</td>
 			<td>Asia/北京</td>
 		</tr>
@@ -71,72 +39,16 @@ layout: zh/default
 	</thead>
 	<tbody>
 		<tr>
-			<td>stdnt-xiao</td>
-			<td></td>
-			<td>https://github.com/stdnt-xiao</td>
-			<td></td>
-			<td>contributor</td>
-			<td>Asia/北京</td>
-			<td>Docker和docker-compose部署的优化</td>
-		</tr>
-		<tr>
-			<td>QQ793732900(恍然如梦)</td>
 			<td></td>
 			<td></td>
 			<td></td>
-			<td>contributor</td>
-			<td>Asia/北京</td>
-			<td>解决Maxkey在Chrome “您的连接不是私密连接” 问题</td>
-		</tr>
-
-		<tr>
-			<td>xiazhenyou</td>
 			<td></td>
-			<td>https://github.com/xiazhenyou</td>
 			<td></td>
-			<td>contributor</td>
-			<td>Asia/北京</td>
-			<td>MaxKey-SpringBoot4CAS-demo</td>
-		</tr>
-		<tr>
-			<td>pcore</td>
 			<td></td>
-			<td>https://gitee.com/pcore</td>
 			<td></td>
-			<td>contributor</td>
-			<td>Asia/北京</td>
-			<td>一键登录</td>
-		</tr>
-		<tr>
-			<td>yutel</td>
-			<td></td>
-			<td>https://gitee.com/yutel</td>
-			<td></td>
-			<td>contributor</td>
-			<td>Asia/北京</td>
-			<td>退出功能优化</td>
-		</tr>
-		<tr>
-			<td>alanland</td>
-			<td></td>
-			<td>https://gitee.com/alanland</td>
-			<td></td>
-			<td>contributor</td>
-			<td>Asia/北京</td>
-			<td>Docker支持</td>
-		</tr>
-		<tr>
-			<td>MemoryF</td>
-			<td></td>
-			<td>https://github.com/MemoryF</td>
-			<td></td>
-			<td>contributor</td>
-			<td>Asia/北京</td>
-			<td>前后端分离注销问题</td>
 		</tr>
 	</tbody>
 </table>
 
 其他贡献者
 
-https://github.com/dromara/MaxKey/graphs/contributors

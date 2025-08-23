@@ -8,6 +8,9 @@
                     <span class="logo-text">JinBooks</span>
                 </div>
                 <nav class="nav">
+					<div class="nav-item">
+                        <a href="{{site.baseurl}}/" class="nav-link">首页</a>
+                    </div>
                     <div class="nav-item">
                         <a href="#" class="nav-link">产品功能</a>
                     </div>
@@ -21,11 +24,19 @@
                             <a href="#" class="dropdown-item">数据分析</a>
                         </div>
                     </div>
+					<!--
                     <div class="nav-item">
                         <a href="#" class="nav-link">客户案例</a>
                     </div>
-                    <div class="nav-item">
-                        <a href="#" class="nav-link">关于我们</a>
+					-->
+					<div class="nav-item">
+                        <a href="#" class="nav-link has-dropdown">关于我们</a>
+                        <div class="dropdown">
+                            <a href="{{site.baseurl}}/zh/about/welcome.html" class="dropdown-item">关于我们</a>
+                            <a href="{{site.baseurl}}/zh/about/team.html" class="dropdown-item">项目团队</a>
+							<a href="{{site.baseurl}}/zh/about/dependency.html" class="dropdown-item">项目依赖</a>
+							<a href="{{site.baseurl}}/zh/about/licenses.html" class="dropdown-item">开源许可证</a>
+                        </div>
                     </div>
                 </nav>
             </div>
@@ -47,6 +58,9 @@
             <!-- 移动端菜单 -->
             <div class="mobile-menu" id="mobileMenu">
                 <nav class="mobile-nav">
+					 <div class="mobile-nav-item">
+						<a href="{{site.baseurl}}/" class="mobile-nav-link">首页</a>
+                    </div>
                     <div class="mobile-nav-item">
                         <a href="#" class="mobile-nav-link">产品功能</a>
                     </div>
@@ -60,16 +74,24 @@
                             <a href="#" class="mobile-dropdown-item">数据分析</a>
                         </div>
                     </div>
+					<!--
                     <div class="mobile-nav-item">
                         <a href="#" class="mobile-nav-link">客户案例</a>
                     </div>
-                    <div class="mobile-nav-item">
-                        <a href="#" class="mobile-nav-link">关于我们</a>
+					-->
+					<div class="mobile-nav-item">
+                        <a href="{{site.baseurl}}/zh/about/welcome.html" class="mobile-nav-link">关于我们</a>
+                        <div class="mobile-dropdown">
+                            <a href="{{site.baseurl}}/zh/about/welcome.html" class="mobile-dropdown-item">关于我们</a>
+                            <a href="{{site.baseurl}}/zh/about/team.html" class="mobile-dropdown-item">项目团队</a>
+                            <a href="{{site.baseurl}}/zh/about/dependency.html" class="mobile-dropdown-item">项目依赖</a>
+                            <a href="{{site.baseurl}}/zh/about/licenses.html" class="mobile-dropdown-item">开源许可证</a>
+                        </div>
                     </div>
                 </nav>
                 <div class="mobile-actions">
                     <button class="btn btn-outline">support@jinbooks.com</button>
-                    <button class="btn btn-primary">免费试用</button>
+                    <button class="btn btn-primary"><a href="http://jincloud.maxkey.top/jinbooks" target="_blank">免费试用</a></button>
                     <!--<button class="btn btn-primary">产品交流</button>-->
                 </div>
             </div>

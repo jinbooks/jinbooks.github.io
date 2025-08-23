@@ -14,7 +14,7 @@ http://www.apache.org/licenses/LICENSE-2.0
 </a>
 
 <pre><code class="ini hljs">
-Copyright [2024] [MaxKey of copyright http://www.maxkey.top]
+Copyright [2025] [JinBooks of copyright http://www.jinbooks.com]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -66,36 +66,5 @@ Apache License Version 2.0 <b>也是对商业应用友好的许可，使用者�
 
 
 
-<h3><a name="Declaration "></a>MaxKey 声明 </h3>
-MaxKey <b>遵循 Apache License, Version 2.0 开源免费</b> ，请遵守开源许可证，合规使用开源产品，避免法律纠纷。
-
-
-<h3><a name="Illegal "></a>违反开源协议新闻</h3>
-
-<a href="https://www.oschina.net/news/239388" target="_blank">StreamPark 社区接受赤兔团队的道歉，特此申明-2023年05月04日</a>
-
-<a href="/zh/about/licenses_zqjy_2207.html" target="_blank">关于Authing.cn在百度搜索关键字“MaxKey单点登录认证系统”侵权的进展通告-2022年07月16日</a>
-
-<a href="https://www.oschina.net/news/201007" target="_blank">开源项目维权成功案例： spug 开源运维平台成功维权-2022年06月28日</a>
-
-<a href="https://blog.csdn.net/csdnopensource/article/details/125447214" target="_blank">删库跑路、“投毒”、改协议，开源有哪几大红线千万不能踩？-2022年06月24日</a>
-
-<a href="https://blog.csdn.net/csdnnews/article/details/124837759" target="_blank">GPL 法律之战：它是自由软件许可证，更具合同效力-2022年05月18日</a>
-
-<a href="https://www.oschina.net/news/180750/volcengine-apache-skywalking" target="_blank">违规再分发 SkyWalking，火山引擎回应并道歉-2022年01月29日</a>
-
-<a href="/zh/about/licenses_zqjy.html" target="_blank">关于Authing.cn在百度搜索关键字“MaxKey单点登录认证系统”侵权的通告-2021年12月15日</a>
-
-<a href="https://www.oschina.net/news/159435" target="_blank">首例！违反 GPL 协议致侵权，被判赔偿 50 万元-2021年09月09日</a>
-
-
-<a href="https://www.oschina.net/news/159429" target="_blank">Apache Doris 声明 | 你们想知道的一切，都在这里了-2021年09月09日</a>
-
-
-<a href="https://www.oschina.net/news/135377/spug-announce" target="_blank">致老男孩教育的维权声明 - Spug 运维-2021年03月31日</a>
-
-
-<a href="https://segmentfault.com/a/1190000022973105"  target="_blank">博云违反 Apache 2.0 开源协议被要求整改，开源协议到底应该如何遵守？-2020年06月19日</a>
-
-
-<a href="https://www.oschina.net/news/100440/what-is-a-repo-license"  target="_blank">开源作者痛斥京东重量级项目抄袭-2018年09月30日</a>
+<h3><a name="Declaration "></a>JinBooks 声明 </h3>
+JinBooks <b>遵循 Apache License, Version 2.0 开源免费</b> ，请遵守开源许可证，合规使用开源产品，避免法律纠纷。
