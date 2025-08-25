@@ -572,7 +572,9 @@ body {
     z-index: 999;
 }
 
+
 .mobile-menu.active {
+	z-index: 1;
     opacity: 1;
     transform: translateY(0);
 }
