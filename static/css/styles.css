@@ -1383,3 +1383,15 @@ body {
 
 
 }
+
+
+.pdf-loading {
+    background-image: url('../images/loading.gif');
+	background-repeat: no-repeat;
+    height: 350px;
+	width: 350px;
+}
+
+.pdf-loaded{
+	display:none;
+}

@@ -12,9 +12,11 @@ layout: zh/default
   <button id="next">下一页</button>
   &nbsp; &nbsp;
   <span>第: <span id="page_num"></span> / <span id="page_count"></span>页</span>
+  
 </div>
+<div id="pdf-loading" class="pdf-loading"> </div>
+<canvas id="pdf-canvas"></canvas>
 
-<canvas id="the-canvas"></canvas>
 
 <script src="{{ "/static/js/pdf/pdf.mjs" | prepend: site.baseurl }}" type="module"></script>
 
@@ -33,8 +35,8 @@ layout: zh/default
       pageNum = 1,
       pageRendering = false,
       pageNumPending = null,
-      scale = 0.8,
-      canvas = document.getElementById('the-canvas'),
+      scale = 2,
+      canvas = document.getElementById('pdf-canvas'),
       ctx = canvas.getContext('2d');
 
   /**
@@ -49,7 +51,7 @@ layout: zh/default
       var viewport = page.getViewport({scale: scale});
       canvas.height = viewport.height;
       canvas.width = viewport.width;
-
+		console.log('PDF width ' +viewport.width);
       // Render PDF page into canvas context
       var renderContext = {
         canvasContext: ctx,
@@ -114,6 +116,7 @@ layout: zh/default
    */
   pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 	console.log('PDF loaded');
+	document.getElementById('pdf-loading').classList.add("pdf-loaded");
     pdfDoc = pdfDoc_;
     document.getElementById('page_count').textContent = pdfDoc.numPages;
 
