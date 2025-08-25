@@ -45,6 +45,7 @@ layout: zh/default
     pageRendering = true;
     // Using promise to fetch the page
     pdfDoc.getPage(num).then(function(page) {
+	  console.log('Page loaded');
       var viewport = page.getViewport({scale: scale});
       canvas.height = viewport.height;
       canvas.width = viewport.width;
@@ -58,6 +59,7 @@ layout: zh/default
 
       // Wait for rendering to finish
       renderTask.promise.then(function() {
+	    console.log('Page rendered');
         pageRendering = false;
         if (pageNumPending !== null) {
           // New page rendering is pending
@@ -111,6 +113,7 @@ layout: zh/default
    * Asynchronously downloads PDF.
    */
   pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+	console.log('PDF loaded');
     pdfDoc = pdfDoc_;
     document.getElementById('page_count').textContent = pdfDoc.numPages;
 
