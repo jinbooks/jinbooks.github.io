@@ -14,13 +14,13 @@ layout: zh/default
 <script type="module">
   // If absolute URL from the remote server is provided, configure the CORS
   // header on that server.
-  var url = '{{ "/static/pdf/JinBooks_v1.1.0.pdf" | prepend: site.baseurl }}';
+  var url = 'https://www.jinbooks.com/static/pdf/JinBooks_v1.1.0.pdf';
 
   // Loaded via <script> tag, create shortcut to access PDF.js exports.
   var { pdfjsLib } = globalThis;
 
   // The workerSrc property shall be specified.
-  pdfjsLib.GlobalWorkerOptions.workerSrc = '{{ "/static/js/pdf/pdf.worker.mjs" | prepend: site.baseurl }}';
+  pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://www.jinbooks.com/static/js/pdf/pdf.worker.mjs';
 
   // Asynchronous download of PDF
   var loadingTask = pdfjsLib.getDocument(url);
