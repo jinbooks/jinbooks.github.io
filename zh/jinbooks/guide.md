@@ -11,7 +11,7 @@ layout: zh/default
   <button id="prev">上一页</button>
   <button id="next">下一页</button>
   &nbsp; &nbsp;
-  <span>第: <span id="page_num"></span> / <span id="page_count"></span></span>
+  <span>第: <span id="page_num"></span> / <span id="page_count"></span>页</span>
 </div>
 
 <canvas id="the-canvas"></canvas>
